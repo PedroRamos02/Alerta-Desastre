@@ -12,5 +12,18 @@ services:
         volumes:
             - .docker/setup.sql:/docker-entrypoint-initdb.d/setup.sql
             - db_data:/var/lib/mysql
+
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 8080:8080
+        environment:
+       
+        DB_Conection: "Host=mysql;Port = 3306;Database=somedatabase;User=someuser;Password=Password1!;"
+        
+        depends_on:
+            - mysql
 volumes:
     db_data:
