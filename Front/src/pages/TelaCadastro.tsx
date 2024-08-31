@@ -20,39 +20,19 @@ export default function TelaCadastro () {
                 fontSize: '25px'
             }}>Preencha com seus dados</h2>
             <InputCadastro 
-                labelType="text"
-                inputType="text"
                 labelText="Nome"
-                placeholderText="Insira seu nome"
-
             />
             <InputCadastro 
-                labelType="text"
-                inputType="text"
                 labelText="Email"
-                placeholderText="Insira seu Email"
-
             />
             <InputCadastro 
-                labelType="password"
-                inputType="password"
                 labelText="Senha"
-                placeholderText="Insira sua senha"
-
             />
             <InputCadastro 
-                labelType="number"
-                inputType="number"
                 labelText="CPF"
-                placeholderText="Insira seu CPF"
-
             />
             <InputCadastro 
-                labelType="text"
-                inputType="text"
                 labelText="Localização"
-                placeholderText="Informe sua localização"
-
             />
             <UploadButton />
             <ButtonCadastro />

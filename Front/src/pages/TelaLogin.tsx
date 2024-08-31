@@ -15,8 +15,8 @@ export default function TelaLogin () {
         }}>
                 <Box
                     component="img"
-                    src="../src/assets/logo.png"
-                    sx={{  width: '300px', margin:'40px auto', position: 'relative', bottom: '50px', display: { xs: 'block', md: 'none' },}} >
+                    src="../src/assets/logoBranco.png"
+                    sx={{  width: '350px', margin:'40px auto', position: 'relative', bottom: '50px', display: { xs: 'block', md: 'none' },}} >
                 </Box>
                 <Box
                     component="label"
@@ -47,7 +47,7 @@ export default function TelaLogin () {
                 <InputLogin
                     labelType=""
                     inputType="password"
-                    placeholderText="   Password"
+                    placeholderText="   Senha"
                     largura="330"
                     spaceBottom="75"
                 />
@@ -73,8 +73,8 @@ export default function TelaLogin () {
                     width: '35%',
                     margin: '1px auto 35px auto'
                 }}>
-                    <div style={{ alignContent: 'center', textAlign: 'center', width: '50px', height: '50px', border: 'solid 2px white', borderRadius: '100%' }}><img style={{ width: '35px', marginTop: '3px' }} src="../src/assets/gmail_icon.png" /></div>
-                    <div style={{ alignContent: 'center', textAlign: 'center', width: '50px', height: '50px', border: 'solid 2px white', borderRadius: '100%' }}><img style={{ width: '35px', marginTop: '3px' }} src="../src/assets/fc_icon.png" /></div>
+                    <div style={{ alignContent: 'center', textAlign: 'center', width: '50px', height: '48px', border: 'solid 2px white', borderRadius: '100%', backgroundColor: 'white' }}><img style={{ width: '35px', marginTop: '3px' }} src="../src/assets/gmail_icon.png" /></div>
+                    <div style={{ alignContent: 'center', textAlign: 'center', width: '50px', height: '48px', border: 'solid 2px white', borderRadius: '100%', backgroundColor: 'white' }}><img style={{ width: '35px', marginTop: '3px' }} src="../src/assets/fc_icon.png" /></div>
                 </div>
                 <p style={{ color: '#ffffff' }}>Não possui uma conta?  <a style={{ fontWeight: 'bold', textDecoration: 'none', color: 'white' }} href="/cadastro">Cadastre-se</a></p>
         </Box>
