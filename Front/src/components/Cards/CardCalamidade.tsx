@@ -8,14 +8,13 @@ interface CardCalamidadeProps {
 }
 
 export const CardCalamidade: React.FC<CardCalamidadeProps> = ({ bairroInfo, ocorrenciaInfo }) => {
-  // Estados para o texto de ocorrencia e a cor do círculo pulsante
+ 
   const [currentOcorrenciaInfo, setOcorrenciaInfo] = useState(ocorrenciaInfo);
-  const [circleColor, setCircleColor] = useState('#4caf50'); // Cor inicial: verde
+  const [circleColor, setCircleColor] = useState('#4caf50'); 
 
-  // Função para atualizar o texto e a cor do círculo após o cadastro de calamidade
   const handleCadastroClick = () => {
-    setOcorrenciaInfo('Nova ocorrência registrada!'); // Atualiza o texto da ocorrência
-    setCircleColor('#f44336'); // Atualiza a cor do círculo para vermelho
+    setOcorrenciaInfo('1 ocorrência registrada!'); 
+    setCircleColor('#f44336'); 
   };
 
   const pulseAnimation = keyframes`
@@ -36,7 +35,7 @@ export const CardCalamidade: React.FC<CardCalamidadeProps> = ({ bairroInfo, ocor
   const PulsingCircle = styled(Box)({
     width: "30px",
     height: "30px",
-    backgroundColor: circleColor, // Cor dinâmica baseada no estado
+    backgroundColor: circleColor, 
     borderRadius: "50%",
     animation: `${pulseAnimation} 1.5s infinite`,
   });
@@ -58,8 +57,7 @@ export const CardCalamidade: React.FC<CardCalamidadeProps> = ({ bairroInfo, ocor
         <PulsingCircle />
       </Box>
       <p>{currentOcorrenciaInfo}</p>
-      {/* Botão de Cadastro de Calamidade */}
-      <button onClick={handleCadastroClick}>Cadastrar Calamidade</button>
+      <button style={{opacity: 0, width: '300px', height: '80px', position: 'absolute', }} onClick={handleCadastroClick}>Cadastrar Calamidade</button>
     </Box>
   );
 };
