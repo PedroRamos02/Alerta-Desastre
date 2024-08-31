@@ -7,6 +7,8 @@ namespace Alerta_Desastre.infraestrutura
     public class ConnectionContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<Region> Regions { get; set; }
+        
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

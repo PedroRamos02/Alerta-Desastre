@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe\\Documents\\Felipe\\Estudos\\Alerta_Desastre\\Alerta_Desastre\\Alerta_Desastre.csproj": {}
+    "/home/brunorosaduarte/RiderProjects/Alerta-Desastre/Backend/Alerta_Desastre/Alerta_Desastre.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe\\Documents\\Felipe\\Estudos\\Alerta_Desastre\\Alerta_Desastre\\Alerta_Desastre.csproj": {
+    "/home/brunorosaduarte/RiderProjects/Alerta-Desastre/Backend/Alerta_Desastre/Alerta_Desastre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Documents\\Felipe\\Estudos\\Alerta_Desastre\\Alerta_Desastre\\Alerta_Desastre.csproj",
+        "projectUniqueName": "/home/brunorosaduarte/RiderProjects/Alerta-Desastre/Backend/Alerta_Desastre/Alerta_Desastre.csproj",
         "projectName": "Alerta_Desastre",
-        "projectPath": "C:\\Users\\Felipe\\Documents\\Felipe\\Estudos\\Alerta_Desastre\\Alerta_Desastre\\Alerta_Desastre.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Documents\\Felipe\\Estudos\\Alerta_Desastre\\Alerta_Desastre\\obj\\",
+        "projectPath": "/home/brunorosaduarte/RiderProjects/Alerta-Desastre/Backend/Alerta_Desastre/Alerta_Desastre.csproj",
+        "packagesPath": "/home/brunorosaduarte/.nuget/packages/",
+        "outputPath": "/home/brunorosaduarte/RiderProjects/Alerta-Desastre/Backend/Alerta_Desastre/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/brunorosaduarte/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Felipe\\.dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/brunorosaduarte/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
