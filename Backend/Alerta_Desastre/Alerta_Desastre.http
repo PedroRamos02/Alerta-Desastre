@@ -1,0 +1,6 @@
+@Alerta_Desastre_HostAddress = http://localhost:5284
+
+GET {{Alerta_Desastre_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
